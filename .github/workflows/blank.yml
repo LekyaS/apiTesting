@@ -1,0 +1,16 @@
+name: Rational Integration Tester
+
+on: workflow_dispatch
+
+jobs:
+    API-Action:
+        name: Rational Integration Tester
+        runs-on: self-hosted
+        steps:
+         - name: Rational Integration Tester
+           uses: IBM/devopsauto-integrtest-actions@v1
+           with:
+            projectDir: API - C:\Users\preethi.as\ibmapiproject\
+            projectName: ibmapiproject
+            environment: BLMYCLDDW161391
+            tests: Test1

@@ -10,7 +10,7 @@ jobs:
          - name: Rational Integration Tester
            uses: IBM/devopsauto-integrtest-actions@v1
            with:
-            projectDir: C:\Users\preethi.as\ibmapiproject
+            projectDir: C:/Users/preethi.as/ibmapiproject
             parameterFile: addNumbers/addition/Test1
             projectName: ibmapiproject
             environment: BLMYCLDDW161391

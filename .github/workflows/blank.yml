@@ -8,9 +8,9 @@ jobs:
         runs-on: self-hosted
         steps:
          - name: Rational Integration Tester
-           uses: IBM/devopsauto-integrtest-actions@v1
+           uses: HCL-TECH-SOFTWARE/onetest-api-action@v1
            with:
-            projectDir: C:/Users/preethi.as/ibmapiproject
-            projectName: ibmapiproject
+            projectDir: C:\Users\preethi.as\
+            projectName: NewAPIProject
             environment: BLMYCLDDW161391
             tests: Test1

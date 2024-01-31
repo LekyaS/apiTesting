@@ -10,7 +10,7 @@ jobs:
          - name: Rational Integration Tester
            uses: HCL-TECH-SOFTWARE/onetest-api-action@v1
            with:
-            projectDir: C:\Users\preethi.as\
+            projectDir: C:\Users\preethi.as\NewAPIProject
             projectName: NewAPIProject
             environment: BLMYCLDDW161391
             tests: Test1
